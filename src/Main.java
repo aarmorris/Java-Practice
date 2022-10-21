@@ -6,15 +6,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in)
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Name: ");
+//        String name = scanner.nextLine().trim();
+//        System.out.println(("You are " + name));
 
         // Method chaining is down below:
 //        String result = NumberFormat.getPercentInstance().format(0.1);
 //        System.out.println((result));
 
-//        NumberFormat percentage = NumberFormat.getPercentInstance();
-//        String result = percentage.format(0.1);
-//        System.out.println((result));
+        NumberFormat number = NumberFormat.getNumberInstance();
+        String result = number.format(1234567.87);
+        System.out.println((result));
 
 
 //        int result = (int) (Math.random() * 100);
