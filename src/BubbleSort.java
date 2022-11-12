@@ -23,7 +23,7 @@ public class BubbleSort  {
     public static void main(String args[])
     {
         BubbleSort ob = new BubbleSort();
-        int arr[] = { 55, 23, 78, 6, 25, 30, 205 };
+        int arr[] = { 33, 44, 44, 61, 25, 30, 205 };
         ob.bubbleSort(arr);
         System.out.println("Sorted array");
         ob.printArray(arr);
